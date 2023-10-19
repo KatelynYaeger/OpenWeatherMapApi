@@ -21,7 +21,6 @@ var _apiKey = apiSettings.Value.ApiKey;
 
 var client = new HttpClient();
 
-
 while (true)
 {
     try
@@ -53,7 +52,7 @@ while (true)
 
     catch (Exception e)
     {
-        Console.WriteLine($"Hmm, that doesn't look right. Please try again.");
+        Console.WriteLine($"Hmm, that doesn't look right. Try again.");
     }
 
 }
